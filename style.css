@@ -2,3 +2,9 @@
   display: flex;
   justify-content: space-between;
 }
+
+.responsive {
+  width: 25%;
+  height: auto;
+  border-radius: 25%;
+}

@@ -21,7 +21,7 @@
     <section>
       <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">My Portfolio</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -36,15 +36,15 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a class="nav-link active" aria-current="page" href="#aboutMe"
                   >About Me</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">My Projects</a>
+                <a class="nav-link" href="#myProject">My Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">My Experiences</a>
+                <a class="nav-link" href="#followMe">Follow Me</a>
               </li>
             </ul>
           </div>
@@ -57,20 +57,32 @@
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-4">Kevin Luu</h1>
-          <p class="lead">
-            Replace this section with an image 
-          </p>
+          <img src="images/Ferrari.jpg" alt="" class="responsive" width="" height="">
           <hr class="my-4" />
-          <h2 class="display-6">About Me</h2>
-          <a class="btn btn-primary btn-lg" href="#" role="button"
-            >Learn more</a
-          >
+    
+      <!-- Start of about me section -->
+      <div class="section">
+        <div class="row">
+          <div class="col-md">
+            <a class="btn btn-primary btn-lg" id="aboutMe" type="button" data-toggle="collapse" data-target="#collapseAboutMe" aria-controls="collapseAboutMe">
+              About me</a>
+            
+            <div class="collapse" id="collapseAboutMe">
+                <p>Information about me</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of about me section -->
         </div>
       </div>
     </section>
+
+    
+
     <!-- End of Jumbotron -->
     <!-- Start of Project Cards-->
-    <section class="p-5 bg-dark" id="cars">
+    <section class="p-5 bg-dark" id="myProject">
       <div class="container">
           <h2 class="text-center text-white"> My Mini Projects</h2>
           <p class="lead text-center text-white mb-5">A little showcase of the projects i've done</p>
@@ -198,7 +210,7 @@
   </section>
     <!-- End of the Languages used to build the projects-->
     <!-- Start of contact page-->
-  <section class="p-5">
+  <section class="p-5" id="followMe">
     <div class="container border border-dark rounded">
       <h2 class="text-center text-dark mb-5">Contact/Follow me on:</h2>
       <div class="row g-4">
@@ -239,7 +251,11 @@
   </section>
      <!-- Start of contact page-->
      <!-- Start of footer-->
-
+  <footer class="p-5 text-dark text-center">
+    <div class="container">
+      <p class="lead"> &copy; Kevin L 2021</p>
+    </div>
+  </footer>
      <!-- End of footer-->
     <!-- Start of BootStrap Script-->
     <script
