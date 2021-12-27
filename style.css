@@ -9,6 +9,24 @@
   border-radius: 50%;
 }
 
-.bg-darkgreen {
-  background-color: #d5bdaf !important;
+.bg-colordark {
+  background-color: #64b18a !important;
+}
+
+.bg-colorlight {
+  background-color: #e5fcf0;
+}
+
+.bg-colorlight-grey {
+  background-color: #79d4a7 !important;
+  border-radius: 10px;
+}
+
+.button-color {
+  background-color: #76c79d !important;
+  border-color: #64b18a !important;
+}
+
+.text-green {
+  color: #7eb499;
 }

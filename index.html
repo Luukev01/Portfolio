@@ -19,7 +19,7 @@
   <body>
     <!-- Start of Navbar-->
     <section>
-      <nav class="navbar navbar-expand-sm navbar-light bg-darkgreen">
+      <nav class="navbar navbar-expand-sm navbar-light bg-colordark">
         <div class="container">
           <a class="navbar-brand text-white " href="#">My Portfolio</a>
           <button
@@ -53,23 +53,32 @@
     </section>
     <!-- End of Navbar-->
     <!-- Start of Jumbotron -->
-    <section class="p-5 text-center background container-fluid ">
+    <section class="p-5 text-center container-fluid bg-colorlight">
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Kevin L</h1>
-          <img src="images/Profile-photo.jpeg" alt="" class="responsive" width="" height="">
+          <h1 class="display-4 text-green">Kevin L</h1>
+          <img src="images/Profile-photo.jpeg" alt="image of me" class="responsive" width="" height="">
           <hr class="my-4" />
     
       <!-- Start of about me section -->
-      <div class="section">
-        <div class="row">
-          <div class="col-md">
-            <a class="btn btn-primary btn-lg" id="aboutMe" type="button" data-toggle="collapse" data-target="#collapseAboutMe" aria-controls="collapseAboutMe">
-              About me</a>
-            
-            <div class="collapse" id="collapseAboutMe">
-                <p>Information about me</p>
+      <section class="p-5 text-white text-center bg-colorlight-grey" id="aboutMe">
+        <div class="container">
+          <div class="row">
+           <div class="col-md">
+                <p class="lead mb-1"> <strong>Hi welcome to my portfolio!</strong></p> <br>
+                <p>I'm an aspiring web developer looking to build fun and responsive websites for everyone
+                  <br> 
+                  &#183;
+                  <br>
+                  I will be trying to fill out my card section with fun projects over the following months 
+                </p>
             </div>
+          </div>
+        </div>
+      </section>
+            <!-- <a class="btn btn-lg button-color text-white" id="aboutMe" type="button" data-toggle="collapse" data-target="#collapseAboutMe" aria-controls="collapseAboutMe">
+              About me</a> -->
+            
           </div>
         </div>
       </div>
@@ -82,7 +91,7 @@
 
     <!-- End of Jumbotron -->
     <!-- Start of Project Cards-->
-    <section class="p-5 bg-darkgreen" id="myProject">
+    <section class="p-5 bg-colordark" id="myProject">
       <div class="container">
           <h2 class="text-center text-white"> My Mini Projects</h2>
           <p class="lead text-center text-white mb-5">A little showcase of the projects i've done</p>
@@ -132,26 +141,26 @@
   </section>
     <!-- End of Project Cards-->
     <!-- Start of Languages used to build the projects-->
-  <section class="p-4 bg-darkgreen"> 
+  <section class="p-4 bg-colordark"> 
     <div class="container">
       <p class="lead text-center text-light mb-5">Tools to create these projects are:</p>
       <div class="row g-4">
         <div class="col-sm-4">
           <p class="lead text-center text-light">Frontend Languages</p>
           <ul class="list-group ">
-            <li class="list-group-item text-light bg-darkgreen border border-light ">
+            <li class="list-group-item text-light bg-colordark border border-light ">
               <div class="group-space ">
                 <span>HTML</span> 
                 <img src="images/htmlLogo.png" alt="HTML icon" width="40px" height="40px" >
               </div>
             </li>
-            <li class="list-group-item text-light bg-darkgreen border border-light ">
+            <li class="list-group-item text-light bg-colordark border border-light ">
               <div class="group-space ">
                 <span>CSS</span> 
                 <img src="images/CSS3_logo.png" alt="CSS icon" width="40px" height="40px" >
               </div>
             </li>
-            <li class="list-group-item text-light bg-darkgreen border border-light">
+            <li class="list-group-item text-light bg-colordark border border-light">
               <div class="group-space">
                 <span>Javascript</span> 
                 <img src="images/js-logo-update.png" alt="JS icon" width="auto" height="40px" >
@@ -162,19 +171,19 @@
         <div class="col-sm-4">
           <p class="lead text-center text-light">Backend Languages</p>
           <ul class="list-group">
-            <li class="list-group-item text-light bg-darkgreen border border-light">
+            <li class="list-group-item text-light bg-colordark border border-light">
               <div class="group-space">
                 <span>Javascript</span> 
                 <img src="images/js-logo-update.png" alt="JS icon" width="40px" height="40px" >
               </div>
             </li>
-            <!-- <li class="list-group-item text-light bg-darkgreen border border-light">
+            <!-- <li class="list-group-item text-light bg-colordark border border-light">
               <div class="group-space">
                 <span></span> 
                 <img src="" alt="" width="40px" height="40px" >
               </div>
             </li>
-            <li class="list-group-item text-light bg-darkgreen border border-light">
+            <li class="list-group-item text-light bg-colordark border border-light">
               <div class="group-space">
                 <span></span> 
                 <img src="" alt="" width="40px" height="40px" >
@@ -185,19 +194,19 @@
         <div class="col-sm-4">
           <p class="lead text-center text-light">Libraries</p>
           <ul class="list-group">
-            <li class="list-group-item text-light bg-darkgreen border border-light">
+            <li class="list-group-item text-light bg-colordark border border-light">
               <div class="group-space">
                 <span>Bootstrap</span> 
                 <img src="images/Bootstrap_logo.png" alt="BS icon" width="50px" height="40px" >
               </div>
             </li>
-            <li class="list-group-item text-light bg-darkgreen border border-light">
+            <li class="list-group-item text-light bg-colordark border border-light">
               <div class="group-space">
                 <span>React.JS</span> 
                 <img src="images/Reactlogo.png" alt="React icon" width="60px" height="40px" >
               </div>
             </li>
-            <li class="list-group-item text-light bg-darkgreen border border-light">
+            <li class="list-group-item text-light bg-colordark border border-light">
               <div class="group-space">
                 <span>Node.JS</span> 
                 <img src="images/Node.js_logo.png" alt="node icon" width="55px" height="40px" >
@@ -210,8 +219,8 @@
   </section>
     <!-- End of the Languages used to build the projects-->
     <!-- Start of contact page-->
-  <section class="p-5" id="followMe">
-    <div class="container border border-dark rounded">
+  <section class="p-5 " id="followMe">
+    <div class="container border border-dark rounded ">
       <h2 class="text-center text-dark mb-5">Contact/Follow me on:</h2>
       <div class="row g-4">
         <div class="col-sm-6">
@@ -251,9 +260,9 @@
   </section>
      <!-- Start of contact page-->
      <!-- Start of footer-->
-  <footer class="p-5 text-dark text-center">
+  <footer class="p-5 text-dark text-center bg-colordark">
     <div class="container">
-      <p class="lead"> &copy; Kevin L 2021</p>
+      <p class="lead text-white"> &copy; Kevin L 2021</p>
     </div>
   </footer>
      <!-- End of footer-->
