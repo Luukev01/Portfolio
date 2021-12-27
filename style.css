@@ -4,8 +4,8 @@
 }
 
 .responsive {
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 100px;
+  max-height: 100px;
   border-radius: 50%;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .bg-colorlight-grey {
-  background-color: #79d4a7 !important;
+  background-color: #64b18a !important;
   border-radius: 10px;
 }
 
@@ -29,4 +29,8 @@
 
 .text-green {
   color: #7eb499;
+}
+
+.border-green {
+  border-color: #79d4a7 !important;
 }
