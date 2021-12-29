@@ -31,6 +31,14 @@
   color: #7eb499;
 }
 
+.text-gold {
+  color: #f1d67d !important;
+}
+
+.text-gold-lighter {
+  color: #ecce69ab;
+}
+
 .border-green {
   border-color: #79d4a7 !important;
 }
