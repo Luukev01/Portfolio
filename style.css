@@ -10,7 +10,7 @@
 }
 
 .bg-colordark {
-  background-color: #64b18a !important;
+  background-color: #114d11 !important;
 }
 
 .bg-colorlight {
@@ -18,7 +18,7 @@
 }
 
 .bg-colorlight-grey {
-  background-color: #64b18a !important;
+  background-color: #114d11 !important;
   border-radius: 10px;
 }
 
@@ -27,16 +27,8 @@
   border-color: #64b18a !important;
 }
 
-.text-green {
-  color: #7eb499;
-}
-
-.text-gold {
-  color: #f1d67d !important;
-}
-
-.text-gold-lighter {
-  color: #ecce69ab;
+.text-darkGreen {
+  color: #114d11 !important;
 }
 
 .border-green {
